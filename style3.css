@@ -53,7 +53,13 @@ header {
     width: 40px;
     position: absolute;
     right: 410px;
-    top: 795px;
+    top: 790px;
+}
+.linem {
+    width: 40px;
+    position: absolute;
+    right: 410px;
+    top: 805px;
 }
 
 .plus {
@@ -62,16 +68,20 @@ header {
     text-decoration: none;
     position: absolute;
     right: 427px;
-    top: 775px;
+    top: 773px;
 }
-
+.one {
+    position: absolute;
+    right: 427px;
+    top: 773px;
+}
 .moin {
     font-weight: 200px;
     color: black;
     text-decoration: none;
     position: absolute;
     right: 427px;
-    top: 797px;
+    top: 800px;
 }
 
 .image2 {
@@ -109,25 +119,34 @@ header {
     width: 40px;
     position: absolute;
     right: 410px;
-    top: 1525px;
+    top: 1535px;
 }
-
+.lineb {
+    width: 40px;
+    position: absolute;
+    right: 410px;
+    top: 1519px;
+}
 .plus2 {
     font-weight: 200px;
     color: black;
     text-decoration: none;
     position: absolute;
     right: 427px;
-    top: 1505px;
+    top: 1500px;
 }
-
+.tow {
+    position: absolute;
+    right: 427px;
+    top: 1503px;
+}
 .moin2 {
     font-weight: 200px;
     color: black;
     text-decoration: none;
     position: absolute;
     right: 427px;
-    top: 1528px;
+    top: 1530px;
 }
 
 .image3 {
@@ -165,7 +184,13 @@ header {
     width: 40px;
     position: absolute;
     right: 410px;
-    top: 2225px;
+    top: 2235px;
+}
+.linec {
+    width: 40px;
+    position: absolute;
+    right: 410px;
+    top: 2218px;
 }
 
 .plus3 {
@@ -174,16 +199,20 @@ header {
     text-decoration: none;
     position: absolute;
     right: 427px;
-    top: 2205px;
+    top: 2200px;
 }
-
+.three {
+    position: absolute;
+    right: 427px;
+    top: 2203px;
+}
 .moin3 {
     font-weight: 200px;
     color: black;
     text-decoration: none;
     position: absolute;
     right: 427px;
-    top: 2228px;
+    top: 2233px;
 }
 
 .rectan1 {
