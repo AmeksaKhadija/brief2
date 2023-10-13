@@ -1,0 +1,151 @@
+.parent {
+    width: 1248px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.liste1 {
+    width: 624px;
+    height: 42px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header {
+    margin-left: 10%;
+}
+
+.produits {
+    display: flex;
+    gap: 30px;
+    margin-left: 170px;
+    margin-top: 70px;
+}
+
+.statut1 {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 500px;
+    right: 1130px;
+
+}
+
+.statut2 {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 500px;
+    right: 715px;
+
+}
+
+.statut3 {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 500px;
+    right: 300px;
+
+}
+
+.evaluer {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 660px;
+    right: 640px;
+}
+
+.etoil1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 860px;
+    top: 730px;
+}
+
+.etoil2 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 730px;
+    right: 795px;
+}
+
+.etoil3 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 730px;
+    right: 730px;
+}
+
+.etoil4 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 730px;
+    right: 665px;
+}
+
+.etoil5 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 730px;
+    right: 600px;
+}
+
+.line5 {
+    width: 1248px;
+    text-align: center;
+    position: absolute;
+    top: 970px;
+    left: 140px;
+}
+
+.liste3 {
+    width: 624px;
+    margin: 0%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    position: absolute;
+    top: 1030px;
+    left: 140px;
+}
+
+.line9 {
+    width: 396px;
+    position: absolute;
+    top: 1030px;
+    right: 140px;
+}
+
+.para {
+    position: absolute;
+    top: 985px;
+    right: 320px;
+}
+
+.liste4 {
+    width: 156px;
+    height: 42px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: absolute;
+    top: 1060px;
+    right: 140px;
+}
+
+.flesh {
+    position: absolute;
+    top: 1000px;
+    right: 150px;
+}
