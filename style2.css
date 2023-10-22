@@ -56,7 +56,6 @@ a {
 
 .etoiles img {
     width: 7%;
-
 }
 
 .description h2 {
@@ -166,10 +165,6 @@ a {
     font-size: 40px;
     color: #d59330;
 }
-
-
-
-
 
 .footer1 {
     display: flex;
@@ -303,5 +298,17 @@ a {
         font-size: 60px;
         margin-top: 60px;
         margin-left: 200px;
+    }
+   .etoiles {
+        width: 30%;
+        margin-left: 0px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+    }
+    .haut .etoiles img {
+        margin: auto;
+        margin-left: 0px;
     }
 }
