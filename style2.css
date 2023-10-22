@@ -1,304 +1,307 @@
-.parent {
-    width: 1248px;
+.navbar {
+    width: 100%;
     height: 42px;
     display: flex;
     justify-content: space-between;
+
+}
+
+.navbar img {
+    max-width: 10rem;
+    height: auto;
+
 }
 
 .liste1 {
-    width: 624px;
+    width: 50%;
     height: 42px;
     margin: 0%;
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
-.liste1 li:hover{
+
+.liste1 li:hover {
     background-color: #b29661;
 }
+
 header {
     margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
 }
+
 a {
     text-decoration: none;
 }
-.image1 {
-    width: 600px;
-    height: 600px;
-    margin: 10%;
-    position: absolute;
-    top: 80px;
+
+
+.haut {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 70px;
+
 }
 
-.titre1 {
-    width: 801;
-    height: 231;
-    position: absolute;
-    right: 400px;
-    top: 205px;
+.haut img {
+    width: 35%;
 }
 
-.para1 {
-    width: 400px;
-    height: 100px;
-    margin-left: 43%;
-    position: absolute;
-    right: 300px;
-    top: 350px;
+.description {
+    width: 25%;
 }
 
-.prix {
+.etoiles img {
+    width: 7%;
+
+}
+
+.description h2 {
     color: #A18A68;
-    position: absolute;
-    right: 600px;
-    top: 600px;
+}
+
+.Ajouter {
+    width: 70%;
+    height: 10%;
+    background-color: #E3E3E3;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .rectan1 {
-    width: 200px;
-    height: 50px;
-    background-color: #E3E3E3;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    position: absolute;
-    right: 450px;
-    top: 770px;
+    display: flex;
+    align-items: center;
 }
 
-.rectan2 {
-    width: 40px;
-    height: 50px;
-    background-color: #CBC8C8;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
-    position: absolute;
-    right: 410px;
-    top: 770px;
+.rectan1 img {
+    width: 20%;
+    margin-left: 1.5rem;
 }
 
-.vector1 {
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    right: 605px;
-    top: 778px;
-}
-
-.button {
-    position: absolute;
-    color: rgb(6, 6, 6);
-    text-decoration: none;
-    padding: 15px 32px;
+.rectan1 a {
     font-size: 20px;
-    top: 770px;
-    right: 425px;
+    margin-left: 1.5rem;
 }
 
-.line1 {
-    width: 40px;
-    position: absolute;
-    right: 410px;
-    top: 795px;
+.comment {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin-left: 320px;
+    margin-bottom: 20px;
+
 }
 
-.plus {
-    font-weight: 200px;
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    right: 427px;
-    top: 775px;
-}
-
-.moin {
-    font-weight: 200px;
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    right: 427px;
-    top: 797px;
-}
-
-.etoil1 {
+.comment img {
     width: 60px;
     height: 60px;
-    position: absolute;
-    right: 1270px;
-    top: 850px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
-.etoil2 {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 850px;
-    right: 1190px;
+.comment p {
+    font-size: 15px;
 }
 
-.etoil3 {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 850px;
-    right: 1110px;
+.comment a {
+    font-size: 15px;
+    margin-left: -0.1rem;
+    margin-top: 5rem;
+    color: #d59330;
 }
 
-.etoil4 {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 850px;
-    right: 1030px;
+.titreS3 {
+    width: 50%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
 }
 
-.etoil5 {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 850px;
-    right: 950px;
+.autres {
+    width: 100%;
 }
 
-.commantaire {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 1000px;
-    right: 1200px;
+.images3 {
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 160px;
+    gap: 10px;
 }
 
-.comnt {
-    position: absolute;
-    top: 1020px;
-    right: 750px;
+.images3 img {
+    border-radius: 1rem;
 }
 
-.ajouter {
-    position: absolute;
-    top: 1070px;
-    right: 685px;
-}
+.titres {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 160px;
 
-.titreS3 h3 {
-    position: absolute;
-    font-size: 33px;
-    color: black;
-    top: 1200px;
-    right: 1040px;
-}
-
-.toph1 {
-    width: 300px;
-    height: 300px;
-    margin: 10%;
-    position: absolute;
-    top: 1150px;
-    right:920px;
-}
-
-.toph2 {
-    width: 300px;
-    height: 300px;
-    margin: 10%;
-    position: absolute;
-    top: 1150px;
-    right: 590px;
-}
-
-.toph3 {
-    width: 300px;
-    height: 300px;
-    margin: 10%;
-    position: absolute;
-    top: 1150px;
-    right: 275px;
-}
-
-.p1 {
-    margin: 10%;
-    position: absolute;
-    top: 1450px;
-    right: 1010px;
-}
-
-.p2 {
-    position: absolute;
-    top: 1600px;
-    right: 850px;
-}
-
-.p3 {
-    position: absolute;
-    top: 1600px;
-    right: 550px;
 }
 
 .rectan3 {
-    width: 200px;
-    height: 50px;
+    width: 12%;
+    display: flex;
+    justify-content: center;
     background-color: #E3E3E3;
-    border-radius: 10%;
-    position: absolute;
-    right: 400px;
-    top: 1750px;
+    border-radius: 0.5rem;
+    margin-left: 900px;
+    margin-top: 140px;
 }
 
-.check {
-    position: absolute;
-    color: rgb(6, 6, 6);
-    text-decoration: none;
-    padding: 15px 32px;
-    font-size: 20px;
-    right: 430px;
-    top: 1750px;
+.rectan3 a {
+    font-size: 40px;
+    color: #d59330;
 }
 
-.line {
-    width: 1248px;
+
+
+
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2 {
+    width: 50%;
+}
+
+.line5 {
+    width: 100%;
     text-align: center;
-    position: absolute;
-    top: 2000px;
-    left: 140px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 .liste3 {
-    width: 624px;
-    margin: 0%;
+    width: 100%;
     display: flex;
-    list-style: none;
     justify-content: space-between;
-    position: absolute;
-    top: 2070px;
-    left: 140px;
+    list-style: none;
+
+
 }
 
-.line2 {
+.line9 {
     width: 396px;
-    position: absolute;
-    top: 2070px;
-    right: 140px;
+    height: 0.5px;
+    display: flex;
+    align-content: space-evenly;
 }
 
-.para {
-    position: absolute;
-    top: 2025px;
-    right: 320px;
+
+.gmail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gmail a {
+    align-self: center;
 }
 
 .liste4 {
-    width: 156px;
-    height: 42px;
-    margin: 0%;
+    width: 10%;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    position: absolute;
-    top: 2080px;
-    right: 140px;
+
 }
 
-.flesh {
+.icones {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.toggle-button {
     position: absolute;
-    top: 2040px;
-    right: 150px;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:426px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .liste1 {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+      
+        
+    }
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+    .description p {
+        font-size: 20px;
+    }
+
+    .haut {
+        display: flex;
+        flex-direction: column;
+    }
+    .haut img {
+        width: 150%;
+        margin: auto;
+        margin-left: 200px;
+    }
+    .description {
+        width: 100%;
+    }
+
+    .description h1 {
+        width: 100%;
+        margin: auto;
+        font-size: 50px;
+        margin-top: -40px;
+        margin-left: 300px;
+    }
+    .description p {
+        width: 150%;
+        margin: auto;
+        font-size: 40px;
+        margin-top: 40px;
+        margin-left: 150px;
+    }
+    .description h2 {
+        width: 100%;
+        margin: auto;
+        font-size: 60px;
+        margin-top: 60px;
+        margin-left: 200px;
+    }
 }
