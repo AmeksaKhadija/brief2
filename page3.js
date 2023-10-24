@@ -31,3 +31,33 @@ decrementButtons.forEach((button, index) => {
         decrementNumber(numberDisplays[index]);
     });
 });
+
+document.getElementById("remove").addEventListener("click", () => {
+    document.getElementById("1").style.display = "none";
+})
+
+document.getElementById("suprimer").addEventListener("click", () => {
+    document.getElementById("2").style.display = "none";
+})
+
+document.getElementById("delet").addEventListener("click", () => {
+    document.getElementById("3").style.display = "none";
+})
+
+
+
+
+// pour calculer quantité * prix //
+// function calculerTotalGeneral() {
+//     var total = 0;
+//     for (var i = 0; i < qteProduct.length; i++) {
+//         var quantite = parseInt(qteProduct[i].value);
+//         var prix = parseFloat(price[i].textContent);
+//         var totalProduit = calculerTotalProduit(quantite, prix);
+//         totalprice[i].textContent = totalProduit;
+//         total += totalProduit;
+//     }
+// }
+// function calculerTotalProduit(quantite, prix) {
+//     return quantite * prix;
+// }
