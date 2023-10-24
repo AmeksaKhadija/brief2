@@ -1,16 +1,16 @@
-
 .navbar {
     width: 100%;
     height: 42px;
     display: flex;
     justify-content: space-between;
-       
 }
-.navbar img{
-    max-width:10rem;
-    
-    
+
+.navbar img {
+    max-width: 10rem;
+    height: auto;
+
 }
+
 .liste1 {
     width: 50%;
     height: 42px;
@@ -43,38 +43,42 @@ a {
     flex-wrap: nowrap;
 
 }
+
 .test1 {
-   
+
     width: 70%;
     height: 70%;
 }
+
 .test {
-   
+
     width: 70%;
     height: 70%;
 }
+
 .test2 {
- 
+
     width: 70%;
     height: 70%;
 }
+
 .card .infoCard {
     font-size: 20px;
+    gap: 20px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-between;
 }
 
 /* evaluer */
 
-.etoils  {
+.etoils {
     font-size: 25px;
     font-weight: bold;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-   
 }
+
 .etoils img {
     width: 40px;
     height: 40px;
@@ -99,6 +103,7 @@ a {
     margin-left: 50px;
     margin-top: 100px;
 }
+
 .footer2 .liste3 {
     width: 624px;
     display: flex;
@@ -119,21 +124,24 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
 .gmail a {
     align-self: center;
 }
+
 .liste4 {
     width: 10%;
     display: flex;
     justify-content: space-between;
-    list-style: none;   
+    list-style: none;
 
 }
+
 .icones {
     width: 95%;
     display: flex;
     justify-content: flex-end;
-    
+
 }
 
 
@@ -155,19 +163,90 @@ a {
     border-radius: 10px;
 }
 
-@media (max-width:426px) {
+@media screen and (max-width:426px) {
     .toggle-button {
         display: flex;
     }
-
     .liste1 {
         display: none;
+        justify-content: space-between;
     }
-
-    header {
-        margin-left: 10%;
+    .navbar {
         display: flex;
         justify-content: space-between;
-        margin: auto;
+        gap: 1000px;
     }
+    .images3 {
+        width: 170%;
+        padding: 10% 5%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 90px;
+    }
+
+    .infoCard p {
+        font-size: 35px;
+    }
+    .etoils {
+        width: 150%;
+        font-size: 50px;
+        margin-left: 90px;
+    }
+    
+    .etoils img {
+        width: 50px;
+        height: 50px;
+    }
+    .line5 {
+        width: 180%;
+    }
+
+    .liste3 {
+        font-size: 25px;
+        position: relative;
+        margin-left: 60px;
+        top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 60px;
+    }
+
+    .para {
+        width: 150%;
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+    .para img {
+        width: 150%;
+    }
+    .para a {
+        margin-right: -180px;
+    }
+    .para p {
+        font-size: 30px;
+    }
+    
+    .liste4 {
+        width: 40%;
+        gap: 20px;
+        margin-left: 20px;
+        
+    }
+    .liste4 img {
+        width: 30px;
+        height: 35px;
+        margin-top:20px ;
+    }
+    .icones {
+        width: 200%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
