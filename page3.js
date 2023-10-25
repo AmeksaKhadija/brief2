@@ -1,63 +1,63 @@
 
-const incrementButtons = document.querySelectorAll(".plus");
-const decrementButtons = document.querySelectorAll(".moin");
-const numberDisplays = document.querySelectorAll(".one");
-
-function incrementNumber(display) {
-    let number = parseInt(display.textContent);
-    number++;
-    display.textContent = number;
-}
+const TotalGeneral = document.getElementById("total");
 
 
-function decrementNumber(display) {
-    let number = parseInt(display.textContent);
-    if (number > 1) {
-        number--;
-        display.textContent = number;
+
+function calculTotal() {
+    const prix = document.querySelectorAll(".product");
+
+    let total = 0;
+    for (let i = 0; i < prix.length; i++) {
+
+        total += prix[i].value * 30;
+        console.log("total = " + total);
     }
+    TotalGeneral.textContent = total;
+    return total;
 }
+function clT() {
+    const prix = document.querySelectorAll(".product");
+    let total = 0;
+    prix.forEach(item => {
+
+        item.addEventListener("input", function () {
+           
+           
+            TotalGeneral.textContent = calculTotal();
+        })
+
+    })
+}
+clT();
 
 
-incrementButtons.forEach((button, index) => {
-    button.addEventListener("click", () => {
-        incrementNumber(numberDisplays[index]);
-    });
-});
 
-
-decrementButtons.forEach((button, index) => {
-    button.addEventListener("click", () => {
-        decrementNumber(numberDisplays[index]);
-    });
-});
-
+// delet a product
 document.getElementById("remove").addEventListener("click", () => {
-    document.getElementById("1").style.display = "none";
+    document.getElementById("1").remove();
+    calculTotal();
 })
 
 document.getElementById("suprimer").addEventListener("click", () => {
-    document.getElementById("2").style.display = "none";
+    document.getElementById("2").remove();
+    calculTotal();
 })
 
 document.getElementById("delet").addEventListener("click", () => {
-    document.getElementById("3").style.display = "none";
+    document.getElementById("3").remove();
+    calculTotal();
 })
 
+// bergur menu
 
+let menu = document.getElementById('menu');
+let liste = document.getElementById('liste');
 
+menu.addEventListener('click', function () {
+    if (liste.style.display === "none") {
+        liste.style.display = "flex";
+    } else {
+        liste.style.display = "none";
+    }
+});
 
-// pour calculer quantité * prix //
-// function calculerTotalGeneral() {
-//     var total = 0;
-//     for (var i = 0; i < qteProduct.length; i++) {
-//         var quantite = parseInt(qteProduct[i].value);
-//         var prix = parseFloat(price[i].textContent);
-//         var totalProduit = calculerTotalProduit(quantite, prix);
-//         totalprice[i].textContent = totalProduit;
-//         total += totalProduit;
-//     }
-// }
-// function calculerTotalProduit(quantite, prix) {
-//     return quantite * prix;
-// }

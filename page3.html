@@ -14,7 +14,7 @@
         <div class="navbar">
             <div class="nav1">
                 <img src="YouShope.png" alt="titre">
-                <a href="#" class="toggle-button">
+                <a id="menu" class="toggle-button">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -30,7 +30,18 @@
                 <li><a href="#"><img src="Icon color.png" alt="searche"></a></li>
             </ul>
         </div>
+
     </header>
+    <div id="liste" class="liste5">
+        <ul id="liste">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Our story</a></li>
+            <li><a href="#"><img src="Icon color (1).png" alt="icone"></a></li>
+            <li><a href="#"><img src="shopping-cart 1.png" alt="shopping"></a></li>
+            <li><a href="#"><img src="Icon color.png" alt="searche"></a></li>
+        </ul>
+    </div>
     <main>
         <section class="panier">
             <div class="titlp">
@@ -42,17 +53,13 @@
                     <div class="infoCard">
                         <div class="formations">
                             <p>Kaede Hair Pin Set Of 3 </p>
-                            <p>$ 30,00</p>
+                            <p>$<span class="price">30.00</span> </p>
                         </div>
                         <div id="remove" class="remove">
                             <i class="fa-solid fa-trash"></i>
                         </div>
-                        <div class="kha">
-                            <a class="plus">+</a>
-                            <img src="Line 15.png" alt="line" class="line1">
-                            <p class="one">1</p>
-                            <img src="Line 15.png" alt="line" class="linem">
-                            <a class="moin">-</a>
+                        <div class="input">
+                            <input class="product" type="number" min="1" max="100" prix="30" value="1" />
                         </div>
                     </div>
                 </div>
@@ -61,17 +68,13 @@
                     <div class="infoCard">
                         <div class="formations">
                             <p>Yuki Hair Pin Set of 3</p>
-                            <p>$ 29,00</p>
+                            <p>$<span class="price">30.00</span> </p>
                         </div>
                         <div id="suprimer" class="remove">
                             <i class="fa-solid fa-trash"></i>
                         </div>
-                        <div class="kha">
-                            <a class="plus">+</a>
-                            <img src="Line 15.png" alt="line" class="line1">
-                            <p class="one">1</p>
-                            <img src="Line 15.png" alt="line" class="linem">
-                            <a class="moin">-</a>
+                        <div class="input">
+                            <input class="product" type="number" min="1" max="100" prix="30" value="1" />
                         </div>
                     </div>
                 </div>
@@ -80,26 +83,21 @@
                     <div class="infoCard">
                         <div class="formations">
                             <p>Kaede Hair Pin Set Of 3 </p>
-                            <p>$ 30,00</p>
+                            <p>$<span class="price">30.00</span> </p>
                         </div>
                         <div id="delet" class="remove">
                             <i class="fa-solid fa-trash"></i>
                         </div>
-                        <div class="kha">
-                            <a class="plus">+</a>
-                            <img src="Line 15.png" alt="line" class="line1">
-                            <p class="one">1</p>
-                            <img src="Line 15.png" alt="line" class="linem">
-                            <a class="moin">-</a>
+                        <div class="input">
+                            <input class="product" type="number" min="1" max="100" prix="30" value="1" />
                         </div>
                     </div>
 
-
                 </div>
             </div>
-            <div class="total">
+            <div id="90" class="total">
                 <div class="p4">
-                    <p>Total : $ 89,00 </p>
+                    <p>Total : $ <span id="total">90,00</span> </p>
                 </div>
             </div>
             <img src="Line 14.png" alt="line" class="line4">
