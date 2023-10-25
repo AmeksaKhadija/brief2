@@ -106,14 +106,22 @@
         <section>
             <div class="rectan3">
                 <p>Information du paiment</p>
-                <form>
-                    <label for="Numero">Numero de la cart bancaire :</label>
-                    <input type="text" placeholder="entrer le numero de la carte">
-                    <label for="Numero">Expiration de la cart (MM/YYYY) :</label>
-                    <input type="text" placeholder="entrer le mois et l'année">
-                    <label for="Numero">Code de sécurité de la cart : </label>
-                    <input type="text" placeholder="Entrer votre code de sécurité">
+                <form onsubmit="return validateForm()">
+                    <label for="Numero">Numero de la carte bancaire :</label>
+                    <input type="text" id="Numero" name="Numero" placeholder="Entrer le numéro de la carte" required>
+            
+                    <label for="Expiration">Expiration de la carte (MM/YYYY) :</label>
+                    <input type="text" id="Expiration" name="Expiration"
+                        placeholder="Entrer le mois et l'année (MM/YYYY)" required>
+            
+                    <label for="CodeSecurite">Code de sécurité de la carte :</label>
+                    <input type="text" id="CodeSecurite" name="CodeSecurite" placeholder="Entrer votre code de sécurité"
+                        required>
+            
+                    <button type="submit">payer</button>
                 </form>
+                <div id="message" style="color: red;"></div>
+
             </div>
             <div class="rects">
                 <div class="rectan01">

@@ -1,4 +1,3 @@
-
 const TotalGeneral = document.getElementById("total");
 
 
@@ -8,7 +7,6 @@ function calculTotal() {
 
     let total = 0;
     for (let i = 0; i < prix.length; i++) {
-
         total += prix[i].value * 30;
         console.log("total = " + total);
     }
@@ -21,8 +19,6 @@ function clT() {
     prix.forEach(item => {
 
         item.addEventListener("input", function () {
-           
-           
             TotalGeneral.textContent = calculTotal();
         })
 
@@ -61,3 +57,36 @@ menu.addEventListener('click', function () {
     }
 });
 
+
+// forme de validation
+
+
+function validateForm() {
+    var numero = document.getElementById("Numero").value;
+    var expiration = document.getElementById("Expiration").value;
+    var codeSecurite = document.getElementById("CodeSecurite").value;
+    var message = document.getElementById("message");
+
+    var numeroRegex = /^[0-9]{8}$/;
+    var expirationRegex = /^(0[1-9]|1[0-2])\/[0-9]{4}$/;
+    var codeSecuriteRegex = /^[0-9]{3}$/;
+
+    if (!numero.match(numeroRegex)) {
+        message.innerHTML = "Veuillez entrer un numéro de carte bancaire valide (8 chiffres)";
+        return false;
+    }
+
+    if (!expiration.match(expirationRegex)) {
+        message.innerHTML = "Veuillez entrer une date d'expiration valide (au format MM/YYYY).";
+        return false;
+    }
+
+    if (!codeSecurite.match(codeSecuriteRegex)) {
+        message.innerHTML = "Veuillez entrer un code de sécurité valide (3 chiffres).";
+        return false;
+    }
+
+   
+    message.innerHTML = "";
+    return true;
+}
